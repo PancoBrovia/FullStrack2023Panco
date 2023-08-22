@@ -1,0 +1,179 @@
+body{
+    background-color: rgb(95, 151, 151);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    border-style: groove;
+    
+}
+
+
+p{
+   padding: 2%;
+   border-style: groove;    
+   text-align: center;
+}
+h1{
+    padding-top: 10%;
+    text-align: center;
+    border-style: double;
+
+}
+nav{
+    background-color: rgb(216, 222, 232);
+    text-align: center;
+    padding-top: 70px;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul{ 
+    list-style: none;
+    margin: 1%; 
+    display: flex;
+    padding-left: 0%;
+
+}
+
+nav a{
+    color: darkslategray;
+    text-decoration: none;
+    padding: 15px 35px;
+    display: block;
+    font-kerning: 750;
+    /*background-color: aliceblue;
+    margin: 3%;
+    border-radius: 4; */
+
+}
+
+h2{
+    margin-top: 15px;
+    text-align: center;
+
+}
+.autos-container{
+    display: flex;
+    min-width:auto
+    flex-wrap: wrap;
+    margin: 8px;
+    justify-content: center;
+    border-style: hidden;
+
+}
+.Autos{
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    background-color: burlywood;
+    border-radius: 8px;
+    box-decoration-break: slice;
+
+}
+
+.Autos img{
+    width: 20%;
+    height: auto;
+}
+
+.Autos h3{
+    color: rgb(30, 89, 91);
+    font-size: medium;
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+.Nuestros vehiculos Disponibles h2{
+    color: blue;
+    text-align: center;
+}
+.form{
+    text-align: center;
+    max-width: 400px;
+    margin: 0;
+    margin-left: 40px;
+}
+label{
+    display: block;
+    border-radius: 15px     ;
+}
+
+input{
+    border-radius: 5px;
+   padding: 10px;
+   margin-bottom: 20px;
+   cursor: pointer;
+}
+
+footer{
+        display: flex;
+        min-width: auto
+        background-color: rgb(218, 208, 193);
+        border: none;
+        cursor: pointer;
+        padding: 20px;
+        margin: 20px;
+        font-variant-position: sub;
+        list-style-type: none;
+        flex-direction: row;
+        justify-content: space-between;
+         
+}
+
+
+.Social-icons {
+    display: flex;
+    min-width:auto
+    width: 40px;
+    height: 40px;
+    background-color: rgb(218, 208, 193);
+    border: none;
+    cursor: pointer;
+    padding: 0%;
+    margin: 0%;
+    font-variant-position: sub;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content:space-around;
+    
+
+}
+
+
+
+
+/*-------------------*/
+/*----RESPONSIVE-----*/
+/* tablet */
+@media (min-whidt:361px){
+    .Autos-container{ display: block;}
+        
+            }
+    .h1{
+        width: 40;
+
+    }
+
+
+
+/* Compu */
+@media (min-whidt:801){
+    .Autos-container{
+        width: 16%;
+    }
+    .h1{
+        width: 16%;
+    }
+}
+/* Movil */
+
+@media (min-whidt:480){
+    .Autos-container{
+        width: 16%;
+    }
+    .h1{
+        width: 16%;
+    }
+}
